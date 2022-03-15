@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+}
+.top__bar {
+    background-color: AliceBlue;
+    display: flex;
+    border-width: .1rem 0;
+    justify-content: space-around;
+}
+.icons__header {
+    display: flex;
+    max-width: 34rem;
+    gap: 3rem;
+    align-items: center;
+}
+.icons__header img {
+    height: 2rem;
+}
+.contact__header ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    max-width: 65rem;
+}
+.contact__header ul li {
+    display: inline;
+    margin: auto;
+}
+.contact__header ul li > a{
+    display: inline-block;
+    padding: 1.8rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #2b3349;
+    cursor: pointer;
+}
+.contact__header ul li:nth-child(3) {
+    border: dashed 0.1rem #2b3349;
+    border-radius: 3rem;
+    margin: 0.5rem;
+}
+.navbar {
+    display: flex;
+    border-width: .1rem 0;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo img {
+    height: 5rem;
+}
+.menu__navbar ul {
+    list-style: none;
+    text-decoration: none;
+}
+.menu__navbar ul li {
+    display: inline;
+    margin: auto;
+    border-left: solid .1rem #2b3349;
+}
+.menu__navbar ul li > a{
+    display: inline-block;
+    padding: 1.8rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #2b3349;
+    cursor: pointer;
+}
+.button_navbar {
+    border: outset 0.2rem aliceblue;
+    padding: 1rem;
+}
+.button_navbar img {
+    height: 2rem;
+}
+.portada__main img {
+    width: 100vw;
+    height: 20rem;
+    object-fit: cover;
+}
+.tittle__main {
+    text-align: center;
+}
+.tittle__main h1 {
+    font-size: 5.6rem;
+    font-weight: bold;
+    color: #2b3349;
+}
+.tittle__main p {
+    font-size: 2.4rem;
+    font-style: italic;
+    color: #2b3349;
+}
+.services__main {
+    display: flex;
+    margin-top: 2.5rem;
+    gap: 1.6rem;
+    justify-content: space-evenly;
+}
+.services__main div {
+    margin-top: 0rem;
+    background-color: aliceblue;
+    border-radius: 2.4rem;
+    width: 30vw;
+}
+.services__main div h2 {
+    text-align: center;
+    margin-bottom: 1.2rem;
+    color: #2b3349;
+    font-size: 2.4rem;
+}
+.services__main div p {
+    font-size: 1.6rem;
+    padding: .8rem;
+    text-align: justify;
+}
+.about__main {
+    display: flex;
+    gap: 10rem;
+    margin: 2rem 0;
+    align-items: center;
+    padding: 0px 5rem;
+}
+.about__main p {
+    font-size: 4rem;
+    text-align: center;
+    color: #2b3349;
+}
+.about__main img {
+    height: 25rem;
+    border-radius: 5rem;
+    border-left: 1rem;
+}
+.footer {
+    background-color: aliceblue;
+    position: relative;
+    height: 7.3rem;
+}
+.footer p {
+    text-align: center;
+    padding: 2.5rem;
+    font-size: 1.6rem;
+    color: #2b3349;
+}
